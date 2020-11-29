@@ -1,5 +1,5 @@
 # Abhishek Anand
-# Array Rotation-Juggling Algorithm
+# Array Rotation Juggling Algorithm
 def gcd(a,b):
     while b:
         a,b=b,a%b
