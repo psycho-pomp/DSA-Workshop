@@ -1,5 +1,5 @@
 # Abhishek Anand
-# Array Rotation-Reversal Algorithim
+# Array Rotation Reversal Algorithim
 def reverseArray(arr,start,end):
     while start<end:
         arr[start],arr[end]=arr[end],arr[start]
