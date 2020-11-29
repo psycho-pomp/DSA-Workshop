@@ -1,5 +1,5 @@
 # Abhishek Anand
-# Deletion if index is given
+# Deletion if index given
         
     
 n=int(input())
