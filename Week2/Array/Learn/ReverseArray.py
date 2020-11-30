@@ -2,7 +2,7 @@
 # Reversing Array-Without Extra Space
 def ReverseArray(arr,start,end):
     while start < end:
-        A[start], A[end] = A[end], A[start]
+        arr[start], arr[end] = arr[end], arr[start]
         start += 1
         end -= 1
         
