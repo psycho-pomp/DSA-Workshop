@@ -8,7 +8,7 @@ t=[[False for j in range(req_sum+1)] for i in range(n+1)]
 for i in range(n+1):
     t[i][0]=True
     
-def knapsack(arr,req_sum,n):
+def subset_sum(arr,req_sum,n):
     
     for i in range(1,n+1):
         for j in range(1,req_sum+1):
@@ -18,6 +18,6 @@ def knapsack(arr,req_sum,n):
                 t[i][j]=t[i-1][j]
     return t[n][req_sum]
 
-print(knapsack(arr,req_sum,n))
+print(subset_sum(arr,req_sum,n))
 
         
