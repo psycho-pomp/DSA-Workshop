@@ -4,7 +4,7 @@ def MergeSort(arr,l,r):
     if l<r:
         mid=(l+r)//2
         MergeSort(arr,l,mid)
-        MergeSort(arr,mid+1,l)
+        MergeSort(arr,mid+1,r)
         Merge(arr,l,r,mid)
 def Merge(arr,l,r,m):
     
